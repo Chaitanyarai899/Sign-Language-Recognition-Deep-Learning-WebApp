@@ -1,0 +1,6 @@
+einops
+gradio
+numpy
+opencv-python
+torch
+torchvision
