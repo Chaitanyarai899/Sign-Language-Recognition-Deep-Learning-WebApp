@@ -1,5 +1,5 @@
 einops
-gradio
+gradio==3.37.0
 numpy
 opencv-python
 torch
