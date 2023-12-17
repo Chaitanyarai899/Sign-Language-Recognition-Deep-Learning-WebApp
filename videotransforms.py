@@ -16,7 +16,7 @@ class RandomCrop(object):
         th, tw = output_size
         if w == tw and h == th:
             return 0, 0, h, w
-
+ 
         i = random.randint(0, h - th) if h!=th else 0
         j = random.randint(0, w - tw) if w!=tw else 0
         return i, j, th, tw
